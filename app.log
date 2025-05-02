@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/ALREDFANI_SCHOOLS/src/main.py", line 10, in <module>
+    from src.models.student import Student # Import Student model for student login
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/ALREDFANI_SCHOOLS/src/models/student.py", line 26
+    return ".join(random.choice(characters) for i in range(length))
+           ^
+SyntaxError: unterminated string literal (detected at line 26)

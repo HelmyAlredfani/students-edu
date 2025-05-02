@@ -1,0 +1,43 @@
+# ALREDFANI SCHOOLS Website Development Plan
+
+- [ ] **Step 1: Estimate Project Requirements** (Completed)
+- [ ] **Step 2: Scaffold Flask App with MySQL** (Completed)
+- [ ] **Step 3: Design and Implement Database Models**
+    - [ ] Create `todo.md` file.
+    - [x] Define User model (`src/models/user.py`).
+    - [x] Define School model (`src/models/school.py`).
+    - [x] Define Teacher model (`src/models/teacher.py`).
+    - [x] Define Subject model (`src/models/subject.py`).
+    - [x] Define Grade model (`src/models/grade.py`).
+    - [x] Define Student model (`src/models/student.py`).
+    - [x] Define Result model (`src/models/result.py`).
+    - [x] Define relationships between models.
+    - [x] Enable database connection in `src/main.py`.
+    - [x] Initialize database schema.
+- [ ] **Step 4: Build Admin and User Authentication**
+    - [x] Implement login route.
+    - [x] Implement admin user creation (username: alredfani, password: 73345).
+    - [x] Implement session management.
+    - [x] Implement access control/decorators.
+- [ ] **Step 5: Implement Teacher, Subject, Grade, School Management**
+    - [ ] Create admin dashboard interface.
+    - [x] Implement CRUD operations for Schools.
+    - [x] Implement CRUD operations for Teachers.
+    - [x] Implement CRUD operations for Subjects.
+    - [x] Implement CRUD operations for Grades.
+    - [x] Implement assignment of teachers/subjects to schools/grades.
+- [ ] **Step 6: Develop Student Results Entry and Search Features**
+    - [x] Implement student registration/management.
+    - [x] Implement results entry form (link to student, subject, grade, score). (Backend Done)
+    - [x] Implement student/parent search interface (by name or ID).
+    - [x] Implement result display page. (Backend Done)
+- [ ] **Step 7: Enable Professional Result Download and Printing**
+    - [x] Design result report template.
+    - [x] Implement PDF generation for results. (Backend Done)
+    - [x] Add download button to result display page. (Backend Endpoint Ready)
+- [ ] **Step 8: Validate Functionality and Security**
+    - [x] Test all features thoroughly.
+    - [x] Perform basic security checks (e.g., input validation, password hashing).
+- [ ] **Step 9: Report and Send Access to User**
+    - [ ] Deploy the application (optional, ask user).
+    - [ ] Provide access details (URL, admin credentials).
